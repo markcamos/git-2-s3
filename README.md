@@ -46,4 +46,10 @@ npm run deploy
 
 This should build and upload the lambda app to AWS. You should rarely have to do this. The last time I did was to increase memory for the lambda app. I could have done this from the AWS console...
 
-The git-2-s3 lambda function is based on https://github.com/nytlabs/github-s3-deploy/blob/master/index.js
+This version is a tiny bit different than the owenscorning version.
+in .env:
+Profile=test_user (in owenscorning it's blank for default)
+ROLE_ARN= points to the arn in the mark amos test account
+in index.js:
+const owner = 'markcamos' instead of owenscorning
+github token has my personal token in it (instead of owenscorning's)
