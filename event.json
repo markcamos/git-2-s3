@@ -1,0 +1,192 @@
+{
+"Records":
+[
+   {
+      "EventSource": "aws:sns",
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:us-west-2:413067109875:git-2-s3:283e6582-e4e0-495b-af72-2cb59cd9e7ea",
+      "Sns": {
+         "Type": "Notification",
+         "MessageId": "3cb87961-e2cc-5928-98ea-298c7838dbc7",
+         "TopicArn": "arn:aws:sns:us-west-2:413067109875:git-2-s3",
+         "Subject": null,
+         "Message": {
+            "ref": "refs/heads/development",
+            "before": "d86d0af5c8e56e6cf06eb3c45beac270adaa2653",
+            "after": "bf5ce4ff090ee44b32f4e4694bc79663f3af3e1c",
+            "created": false,
+            "deleted": false,
+            "forced": false,
+            "base_ref": null,
+            "compare": "https://github.com/owenscorning/oc-static-test/compare/d86d0af5c8e5...bf5ce4ff090e",
+            "commits": [
+               {
+                  "id": "bf5ce4ff090ee44b32f4e4694bc79663f3af3e1c",
+                  "tree_id": "6a9895d1dbe0d1cbe2e638ec451bb7b3feaa196d",
+                  "distinct": true,
+                  "message": "Update README.md",
+                  "timestamp": "2017-01-09T09:05:39-05:00",
+                  "url": "https://github.com/owenscorning/oc-static-test/commit/bf5ce4ff090ee44b32f4e4694bc79663f3af3e1c",
+                  "author": {
+                     "name": "Mark Amos",
+                     "email": "mark@amos-family.com",
+                     "username": "markcamos"
+                  },
+                  "committer": {
+                     "name": "GitHub",
+                     "email": "noreply@github.com",
+                     "username": "web-flow"
+                  },
+                  "added": [],
+                  "removed": [],
+                  "modified": [
+                     "README.md"
+                  ]
+               }
+            ],
+            "head_commit": {
+               "id": "bf5ce4ff090ee44b32f4e4694bc79663f3af3e1c",
+               "tree_id": "6a9895d1dbe0d1cbe2e638ec451bb7b3feaa196d",
+               "distinct": true,
+               "message": "Update README.md",
+               "timestamp": "2017-01-09T09:05:39-05:00",
+               "url": "https://github.com/owenscorning/oc-static-test/commit/bf5ce4ff090ee44b32f4e4694bc79663f3af3e1c",
+               "author": {
+                  "name": "Mark Amos",
+                  "email": "mark@amos-family.com",
+                  "username": "markcamos"
+               },
+               "committer": {
+                  "name": "GitHub",
+                  "email": "noreply@github.com",
+                  "username": "web-flow"
+               },
+               "added": [],
+               "removed": [],
+               "modified": [
+                  "README.md"
+               ]
+            },
+            "repository": {
+               "id": 62161830,
+               "name": "oc-static-test",
+               "full_name": "owenscorning/oc-static-test",
+               "owner": {
+                  "name": "owenscorning",
+                  "email": ""
+               },
+               "private": true,
+               "html_url": "https://github.com/owenscorning/oc-static-test",
+               "description": null,
+               "fork": false,
+               "url": "https://github.com/owenscorning/oc-static-test",
+               "forks_url": "https://api.github.com/repos/owenscorning/oc-static-test/forks",
+               "keys_url": "https://api.github.com/repos/owenscorning/oc-static-test/keys{/key_id}",
+               "collaborators_url": "https://api.github.com/repos/owenscorning/oc-static-test/collaborators{/collaborator}",
+               "teams_url": "https://api.github.com/repos/owenscorning/oc-static-test/teams",
+               "hooks_url": "https://api.github.com/repos/owenscorning/oc-static-test/hooks",
+               "issue_events_url": "https://api.github.com/repos/owenscorning/oc-static-test/issues/events{/number}",
+               "events_url": "https://api.github.com/repos/owenscorning/oc-static-test/events",
+               "assignees_url": "https://api.github.com/repos/owenscorning/oc-static-test/assignees{/user}",
+               "branches_url": "https://api.github.com/repos/owenscorning/oc-static-test/branches{/branch}",
+               "tags_url": "https://api.github.com/repos/owenscorning/oc-static-test/tags",
+               "blobs_url": "https://api.github.com/repos/owenscorning/oc-static-test/git/blobs{/sha}",
+               "git_tags_url": "https://api.github.com/repos/owenscorning/oc-static-test/git/tags{/sha}",
+               "git_refs_url": "https://api.github.com/repos/owenscorning/oc-static-test/git/refs{/sha}",
+               "trees_url": "https://api.github.com/repos/owenscorning/oc-static-test/git/trees{/sha}",
+               "statuses_url": "https://api.github.com/repos/owenscorning/oc-static-test/statuses/{sha}",
+               "languages_url": "https://api.github.com/repos/owenscorning/oc-static-test/languages",
+               "stargazers_url": "https://api.github.com/repos/owenscorning/oc-static-test/stargazers",
+               "contributors_url": "https://api.github.com/repos/owenscorning/oc-static-test/contributors",
+               "subscribers_url": "https://api.github.com/repos/owenscorning/oc-static-test/subscribers",
+               "subscription_url": "https://api.github.com/repos/owenscorning/oc-static-test/subscription",
+               "commits_url": "https://api.github.com/repos/owenscorning/oc-static-test/commits{/sha}",
+               "git_commits_url": "https://api.github.com/repos/owenscorning/oc-static-test/git/commits{/sha}",
+               "comments_url": "https://api.github.com/repos/owenscorning/oc-static-test/comments{/number}",
+               "issue_comment_url": "https://api.github.com/repos/owenscorning/oc-static-test/issues/comments{/number}",
+               "contents_url": "https://api.github.com/repos/owenscorning/oc-static-test/contents/{+path}",
+               "compare_url": "https://api.github.com/repos/owenscorning/oc-static-test/compare/{base}...{head}",
+               "merges_url": "https://api.github.com/repos/owenscorning/oc-static-test/merges",
+               "archive_url": "https://api.github.com/repos/owenscorning/oc-static-test/{archive_format}{/ref}",
+               "downloads_url": "https://api.github.com/repos/owenscorning/oc-static-test/downloads",
+               "issues_url": "https://api.github.com/repos/owenscorning/oc-static-test/issues{/number}",
+               "pulls_url": "https://api.github.com/repos/owenscorning/oc-static-test/pulls{/number}",
+               "milestones_url": "https://api.github.com/repos/owenscorning/oc-static-test/milestones{/number}",
+               "notifications_url": "https://api.github.com/repos/owenscorning/oc-static-test/notifications{?since,all,participating}",
+               "labels_url": "https://api.github.com/repos/owenscorning/oc-static-test/labels{/name}",
+               "releases_url": "https://api.github.com/repos/owenscorning/oc-static-test/releases{/id}",
+               "deployments_url": "https://api.github.com/repos/owenscorning/oc-static-test/deployments",
+               "created_at": 1467135691,
+               "updated_at": "2017-01-08T01:36:02Z",
+               "pushed_at": 1483970739,
+               "git_url": "git://github.com/owenscorning/oc-static-test.git",
+               "ssh_url": "git@github.com:owenscorning/oc-static-test.git",
+               "clone_url": "https://github.com/owenscorning/oc-static-test.git",
+               "svn_url": "https://github.com/owenscorning/oc-static-test",
+               "homepage": null,
+               "size": 62,
+               "stargazers_count": 0,
+               "watchers_count": 0,
+               "language": "HTML",
+               "has_issues": true,
+               "has_downloads": true,
+               "has_wiki": true,
+               "has_pages": false,
+               "forks_count": 0,
+               "mirror_url": null,
+               "open_issues_count": 3,
+               "forks": 0,
+               "open_issues": 3,
+               "watchers": 0,
+               "default_branch": "development",
+               "stargazers": 0,
+               "master_branch": "development",
+               "organization": "owenscorning"
+            },
+            "pusher": {
+               "name": "markcamos",
+               "email": "mark@amos-family.com"
+            },
+            "organization": {
+               "login": "owenscorning",
+               "id": 11943477,
+               "url": "https://api.github.com/orgs/owenscorning",
+               "repos_url": "https://api.github.com/orgs/owenscorning/repos",
+               "events_url": "https://api.github.com/orgs/owenscorning/events",
+               "hooks_url": "https://api.github.com/orgs/owenscorning/hooks",
+               "issues_url": "https://api.github.com/orgs/owenscorning/issues",
+               "members_url": "https://api.github.com/orgs/owenscorning/members{/member}",
+               "public_members_url": "https://api.github.com/orgs/owenscorning/public_members{/member}",
+               "avatar_url": "https://avatars.githubusercontent.com/u/11943477?v=3",
+               "description": ""
+            },
+            "sender": {
+               "login": "markcamos",
+               "id": 5060332,
+               "avatar_url": "https://avatars.githubusercontent.com/u/5060332?v=3",
+               "gravatar_id": "",
+               "url": "https://api.github.com/users/markcamos",
+               "html_url": "https://github.com/markcamos",
+               "followers_url": "https://api.github.com/users/markcamos/followers",
+               "following_url": "https://api.github.com/users/markcamos/following{/other_user}",
+               "gists_url": "https://api.github.com/users/markcamos/gists{/gist_id}",
+               "starred_url": "https://api.github.com/users/markcamos/starred{/owner}{/repo}",
+               "subscriptions_url": "https://api.github.com/users/markcamos/subscriptions",
+               "organizations_url": "https://api.github.com/users/markcamos/orgs",
+               "repos_url": "https://api.github.com/users/markcamos/repos",
+               "events_url": "https://api.github.com/users/markcamos/events{/privacy}",
+               "received_events_url": "https://api.github.com/users/markcamos/received_events",
+               "type": "User",
+               "site_admin": false
+            }
+         },
+         "Timestamp": "2017-01-09T14:05:40.832Z",
+         "SignatureVersion": "1",
+         "Signature": "PzkIYq9TBkd1TmaRFvqjgZ4P+JU+gDQ+drfG+NnNH1F57TvnW7ccblTPLT1BEV0O3Y4qWe+ehwZZMawkxDxZx1+WGe7UL8N2rkToaAQ0lqrORfyGmpA/Q2fP6SOoi4noa7ul6OePLExgEDTbCxRgZ3YdHE1uArjPpeImedMoxl4nhpA3ZoLSrJ295N0nqnrC8nI31qwALtMlCwTKX3J7NHfl/iFwNHHWK3JJI4I4hsy5EP0bWaoHZ6n2ddTRBEbAbJ5R8XBPom3Wjzty66fEQP9RyhyUV9N0PT3QzzRYLZ02Ep9gw7XUI0Pyisous28LhxUjpxYdCZC2QTCEaiXjcA==",
+         "SigningCertUrl": "https://sns.us-west-2.amazonaws.com/SimpleNotificationService-b95095beb82e8f6a046b3aafc7f4149a.pem",
+         "UnsubscribeUrl": "https://sns.us-west-2.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-west-2:413067109875:git-2-s3:283e6582-e4e0-495b-af72-2cb59cd9e7ea",
+         "MessageAttributes": "push"
+      }
+   }
+]
+}
